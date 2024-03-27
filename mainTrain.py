@@ -21,7 +21,7 @@ import torchvision.models as models
 import train
 import test
 import utils
-import convAEk5 as model_type
+import CAE6 as model_type
 import vgg_loss
 import albumentations as A
 from albumentations.pytorch.transforms import ToTensorV2

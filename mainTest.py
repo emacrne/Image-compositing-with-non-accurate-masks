@@ -18,7 +18,7 @@ from torchinfo import summary
 from tqdm.auto import tqdm
 from timeit import default_timer as timer
 import torchvision.models as models
-import convAEk5 as model_type
+import CAE6 as model_type
 import math
 import vgg_loss
 import albumentations as A
