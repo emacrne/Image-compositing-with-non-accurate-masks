@@ -49,8 +49,6 @@ class ImageFolderCustom(Dataset):
 
         self.random_samples_idx = random.sample(range(len(self.img_path)), k=int(len(self.img_path)/2))
 
-         
-
         """self.addColor = A.Compose([A.ColorJitter(always_apply=False, p=0.5)])
         self.addTransform = A.Compose(
             [
@@ -77,7 +75,6 @@ class ImageFolderCustom(Dataset):
 
 
     def deform_mask(self, mask: Image.Image):
-
         #deforming masks with morphology 
 
         size = 255
@@ -106,7 +103,6 @@ class ImageFolderCustom(Dataset):
     
 
     def deform_mask2(self, mask: Image.Image, img):
-
         # second method of deforming masks with findCountours
 
         size =255
